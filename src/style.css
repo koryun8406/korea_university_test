@@ -1,0 +1,27 @@
+:root { --bg:#fff; --fg:#1b1f24; --muted:#59636e; --line:#d8dee4; --acc:#8c1d40; --card:#f6f8fa; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; --line:#30363d; --acc:#e0708f; --card:#161b22; } }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Noto Sans KR",sans-serif; }
+.wrap { max-width:900px; margin:0 auto; padding:0 16px; }
+.top { position:sticky; top:0; background:var(--bg); border-bottom:1px solid var(--line); z-index:5; }
+.bar { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; padding-top:10px; padding-bottom:10px; }
+.brand { font-weight:700; color:var(--acc); text-decoration:none; font-size:1.1rem; }
+nav { display:flex; gap:16px; flex-wrap:wrap; } nav a { color:var(--fg); text-decoration:none; } nav a:hover { color:var(--acc); }
+section { padding:32px 0 8px; scroll-margin-top:60px; }
+h1 { font-size:2.2rem; margin:0 0 4px; } h2 { border-bottom:2px solid var(--acc); padding-bottom:4px; } h2 small { color:var(--muted); font-weight:400; }
+.inst { color:var(--muted); margin-top:0; } .lead { font-size:1.15rem; }
+.links a, .plinks a { margin-right:12px; }
+a { color:var(--acc); }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 16px; }
+.card h3 { margin:0 0 6px; font-size:1.05rem; } .card p { margin:0; } .role { color:var(--muted); }
+.todo { background:rgba(154,103,0,.18); color:#9a6700; border-radius:4px; padding:0 6px; font-size:.85rem; font-weight:600; }
+.search { width:100%; padding:8px 10px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--fg); font-size:1rem; margin:8px 0; }
+.year { margin:20px 0 4px; color:var(--acc); }
+.pubs { padding-left:0; list-style:none; margin:0; }
+.pubs li { padding:10px 0; border-bottom:1px solid var(--line); }
+.ptitle { font-weight:600; } .authors, .cite { color:var(--muted); font-size:.92rem; } .authors b { color:var(--fg); }
+.src { color:var(--muted); font-size:.85rem; margin-top:16px; }
+dl { display:grid; grid-template-columns:80px 1fr; gap:6px 12px; } dt { color:var(--muted); } dd { margin:0; }
+footer { margin:40px auto 24px; color:var(--muted); font-size:.85rem; }
