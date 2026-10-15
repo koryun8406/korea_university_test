@@ -2,6 +2,11 @@ import { useMemo, useState } from 'react';
 import { MEMBERS, RESEARCH_AREAS, SITE, TODO } from './data/site';
 import { PI_AUTHOR, PUBLICATIONS, citation, doiUrl, filterPubs, groupByYear, pubmedUrl } from './lib/pubs';
 
+const LOGO = {
+  med: `${import.meta.env.BASE_URL}logos/ku-medicine.png`,
+  ku: `${import.meta.env.BASE_URL}logos/korea-university.png`,
+};
+
 const isTodo = (s?: string) => s === TODO;
 const Todo = () => <span className="todo">TODO</span>;
 const Val = ({ v }: { v: string }) => (isTodo(v) ? <Todo /> : <>{v}</>);
@@ -15,7 +20,10 @@ export default function App() {
     <>
       <header className="top">
         <div className="wrap bar">
-          <a className="brand" href="#home">{SITE.labName}</a>
+          <a className="brand" href="#home">
+            <img src={LOGO.med} alt="KU Medicine" height={34} />
+            <span>{SITE.labName}</span>
+          </a>
           <nav>
             <a href="#research">Research</a>
             <a href="#members">Members</a>
@@ -27,6 +35,7 @@ export default function App() {
 
       <main className="wrap">
         <section id="home" className="hero">
+          <div className="hero-text">
           <h1>{SITE.labName}</h1>
           <p className="inst">{SITE.institution}</p>
           <p className="lead"><Val v={SITE.tagline} /></p>
@@ -35,6 +44,11 @@ export default function App() {
             <a href={SITE.links.scholar} target="_blank" rel="noreferrer">Google Scholar</a>
             <a href={SITE.links.pure} target="_blank" rel="noreferrer">Korea University Pure</a>
           </p>
+          </div>
+          <div className="crests" aria-hidden="false">
+            <img src={LOGO.med} alt="Korea University College of Medicine (KU Medicine) logo" className="crest-med" />
+            <img src={LOGO.ku} alt="Korea University logo: Libertas, Justitia, Veritas" className="crest-ku" />
+          </div>
         </section>
 
         <section id="research">
@@ -102,7 +116,14 @@ export default function App() {
           </dl>
         </section>
       </main>
-      <footer className="wrap">© {new Date().getFullYear()} {SITE.labName}</footer>
+      <footer className="wrap foot">
+        <img src={LOGO.med} alt="" height={44} />
+        <img src={LOGO.ku} alt="" height={44} />
+        <div>
+          <div>© {new Date().getFullYear()} {SITE.labName} · {SITE.institution}</div>
+          <div className="tm">The Korea University and KU Medicine logos are trademarks of Korea University. This is a laboratory page, not an official university site.</div>
+        </div>
+      </footer>
     </>
   );
 }
