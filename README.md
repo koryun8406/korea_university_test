@@ -7,7 +7,7 @@
 ## 내용
 - **Research**: Organ on a chip / Hematologic malignancy / Clinical chemistry / Therapeutic drug monitoring (연구실 제공)
 - **Members**: Seung Gyu Yun M.D, Ph.D / Jiyeon Kang / Jiyoon Song (연구실 제공)
-- **Publications**: PubMed 저자 검색(`Yun SG[Author] AND Korea University[Affiliation]`) 32건, 연도별 정렬·검색, DOI/PubMed 링크
+- **Publications**: PubMed 저자 검색(`Yun, Seung gyu`) 40건, 연도별 정렬·검색, DOI/PubMed 링크
 - 링크: [Google Scholar](https://scholar.google.com/citations?user=t13fBnoAAAAJ&hl=ko), [Korea University Pure](https://pure.korea.ac.kr/en/persons/seung-gyu-yun/)
 
 ## TODO / 확인 필요 (화면에는 노란색 `TODO`로 표시)

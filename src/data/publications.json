@@ -34,6 +34,24 @@
   "pages": null
  },
  {
+  "pmid": "41979622",
+  "doi": "10.7754/Clin.Lab.2025.250644",
+  "title": "Diagnostic Aspects of a Bacillus Calmette-Guërin (BCG) Infection Following Intravesical Treatment for Bladder Cancer.",
+  "authors": [
+   "Cha JH",
+   "Kim KJ",
+   "Yun SG",
+   "Nam MH",
+   "Lee GI",
+   "Cho Y"
+  ],
+  "journal": "Clin Lab",
+  "year": 2026,
+  "volume": "72",
+  "issue": "4",
+  "pages": null
+ },
+ {
   "pmid": "41595524",
   "doi": "10.3390/genes17010105",
   "title": "Improving CNV Detection Performance Except for Software-Specific Problematic Regions.",
@@ -151,6 +169,23 @@
   "pages": "331"
  },
  {
+  "pmid": "39967545",
+  "doi": "10.7754/Clin.Lab.2024.240920",
+  "title": "The First Case of Arthrobacter woluwensis Bacteremia Diagnosed using MALDI-TOF MS.",
+  "authors": [
+   "Kang T",
+   "Yun SG",
+   "Nam MH",
+   "Cho Y",
+   "Kim KJ"
+  ],
+  "journal": "Clin Lab",
+  "year": 2025,
+  "volume": "71",
+  "issue": "2",
+  "pages": null
+ },
+ {
   "pmid": "39882879",
   "doi": "10.1128/spectrum.02285-24",
   "title": "Comparing sputum, nasopharyngeal swabs, and combined samples for respiratory bacterial detection using multiplex PCR.",
@@ -182,6 +217,28 @@
   "year": 2024,
   "volume": "13",
   "issue": "1",
+  "pages": null
+ },
+ {
+  "pmid": "39257113",
+  "doi": "10.7754/Clin.Lab.2024.240206",
+  "title": "Development of a UPLC-MS/MS Method to Simultaneously Measure 13 Antiepileptic Drugs with Deuterated Internal Standards.",
+  "authors": [
+   "Cha JH",
+   "Choi H",
+   "Yim J",
+   "Kim KJ",
+   "Nam M",
+   "Nam MH",
+   "Lee CK",
+   "Kim DW",
+   "Cho Y",
+   "Yun SG"
+  ],
+  "journal": "Clin Lab",
+  "year": 2024,
+  "volume": "70",
+  "issue": "9",
   "pages": null
  },
  {
@@ -225,6 +282,28 @@
   "pages": null
  },
  {
+  "pmid": "38469788",
+  "doi": "10.7754/Clin.Lab.2023.231003",
+  "title": "Evaluation of Multiplex Rapid Antigen Test for the Detection of SARS-CoV-2 and Influenza A/B in Respiratory Samples.",
+  "authors": [
+   "Kang T",
+   "Cha JH",
+   "Kim J",
+   "Kim KJ",
+   "Nam M",
+   "Nam MH",
+   "Kim DW",
+   "Cho Y",
+   "Lee CK",
+   "Yun SG"
+  ],
+  "journal": "Clin Lab",
+  "year": 2024,
+  "volume": "70",
+  "issue": "3",
+  "pages": null
+ },
+ {
   "pmid": "38132272",
   "doi": "10.3390/diagnostics13243688",
   "title": "Performance Evaluation of Three Antibody Binding Assays, a Neutralizing Antibody Assay, and an Interferon-Gamma Release Assay for SARS-CoV-2 According to Vaccine Type in Vaccinated Group.",
@@ -247,6 +326,28 @@
   "pages": null
  },
  {
+  "pmid": "37702667",
+  "doi": "10.7754/Clin.Lab.2023.230306",
+  "title": "HPLC-MS/MS Method Validation for Antifungal Agents in Human Serum in Clinical Application.",
+  "authors": [
+   "Choi H",
+   "Yim J",
+   "Cha JH",
+   "Kim J",
+   "Kim KJ",
+   "Nam M",
+   "Nam MH",
+   "Lee CK",
+   "Cho Y",
+   "Yun SG"
+  ],
+  "journal": "Clin Lab",
+  "year": 2023,
+  "volume": "69",
+  "issue": "9",
+  "pages": null
+ },
+ {
   "pmid": "37012540",
   "doi": "10.1007/s10096-023-04592-y",
   "title": "Evaluation of a sterile, filter-based, in-house method for rapid direct bacterial identification and antimicrobial susceptibility testing using positive blood culture.",
@@ -263,6 +364,27 @@
   "volume": "42",
   "issue": "6",
   "pages": "691-700"
+ },
+ {
+  "pmid": "36546753",
+  "doi": "10.7754/Clin.Lab.2022.220329",
+  "title": "Development and Validation of a U-HPLC-MS/MS Method for the Concurrent Measurement of four Immunosuppressants in Whole Blood.",
+  "authors": [
+   "Lee C",
+   "Choi H",
+   "Cha JH",
+   "Kim J",
+   "Nam MH",
+   "Nam M",
+   "Lee CK",
+   "Cho Y",
+   "Yun SG"
+  ],
+  "journal": "Clin Lab",
+  "year": 2022,
+  "volume": "68",
+  "issue": "12",
+  "pages": null
  },
  {
   "pmid": "36374089",
@@ -354,6 +476,28 @@
   "pages": "155-166"
  },
  {
+  "pmid": "35023668",
+  "doi": "10.7754/Clin.Lab.2021.210301",
+  "title": "Detection of Plasmodium vivax using Automated Hematology Analyzer in the Korean Army.",
+  "authors": [
+   "Yun SG",
+   "Yoon J",
+   "Kim K",
+   "Choi JM",
+   "Jeon Y",
+   "Kim GA",
+   "Choi MK",
+   "Cho Y",
+   "Lee CK",
+   "Lim CS"
+  ],
+  "journal": "Clin Lab",
+  "year": 2022,
+  "volume": "68",
+  "issue": "1",
+  "pages": null
+ },
+ {
   "pmid": "34142817",
   "doi": "10.1021/acsnano.0c10473",
   "title": "Highly Efficient Transfection of Human Primary T Lymphocytes Using Droplet-Enabled Mechanoporation.",
@@ -369,6 +513,25 @@
   "volume": "15",
   "issue": "8",
   "pages": "12888-12898"
+ },
+ {
+  "pmid": "33073960",
+  "doi": "10.7754/Clin.Lab.2020.200213",
+  "title": "Analytical Performance of Two Enzymatic Methods for Glycated Albumin.",
+  "authors": [
+   "Yun SG",
+   "Kim SW",
+   "Shin GH",
+   "Lee CK",
+   "Ko SY",
+   "Kim DW",
+   "Cho Y"
+  ],
+  "journal": "Clin Lab",
+  "year": 2020,
+  "volume": "66",
+  "issue": "10",
+  "pages": null
  },
  {
   "pmid": "32419396",

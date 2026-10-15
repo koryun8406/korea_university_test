@@ -88,8 +88,8 @@ export default function App() {
             </div>
           ))}
           <p className="src">
-            Source: <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Yun+SG%5BAuthor%5D+AND+Korea+University%5BAffiliation%5D" target="_blank" rel="noreferrer">PubMed</a> author search
-            (Yun SG, Korea University). Conference abstracts and items not indexed in PubMed are not listed; see Google Scholar. TODO(verify): confirm that every item is the PI's own work.
+            Source: <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Yun%2C+Seung+gyu&amp;sort=date&amp;size=100" target="_blank" rel="noreferrer">PubMed</a> author search
+            (Yun, Seung gyu). Conference abstracts and items not indexed in PubMed are not listed; see Google Scholar. TODO(verify): confirm that every item is the PI's own work.
           </p>
         </section>
 

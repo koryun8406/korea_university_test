@@ -3,9 +3,9 @@ import { PUBLICATIONS, filterPubs, groupByYear, citation, doiUrl, pubmedUrl, PI_
 import { MEMBERS, RESEARCH_AREAS } from '../data/site';
 
 describe('publication data', () => {
-  it('has 32 unique PMIDs', () => {
-    expect(PUBLICATIONS).toHaveLength(32);
-    expect(new Set(PUBLICATIONS.map((p) => p.pmid)).size).toBe(32);
+  it('has 40 unique PMIDs', () => {
+    expect(PUBLICATIONS).toHaveLength(40);
+    expect(new Set(PUBLICATIONS.map((p) => p.pmid)).size).toBe(40);
   });
   it('every item has title, year, authors and a valid DOI when present', () => {
     for (const p of PUBLICATIONS) {
@@ -30,7 +30,7 @@ describe('helpers', () => {
     expect(filterPubs(PUBLICATIONS, 'ACTA TROP').length).toBeGreaterThan(0);
     expect(filterPubs(PUBLICATIONS, '2014').every((p) => p.year === 2014 || JSON.stringify(p).includes('2014'))).toBe(true);
     expect(filterPubs(PUBLICATIONS, 'zzzz-none')).toEqual([]);
-    expect(filterPubs(PUBLICATIONS, '  ')).toHaveLength(32);
+    expect(filterPubs(PUBLICATIONS, '  ')).toHaveLength(40);
   });
   it('formats citation and links', () => {
     const p = PUBLICATIONS.find((x) => x.pmid === '25056333')!;
